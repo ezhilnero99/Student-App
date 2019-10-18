@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".faculty">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="FACULTIES"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/dark_blue"
+        android:textAlignment="gravity"
+        android:gravity="center_vertical|center_horizontal"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fountain3" />
+    <ListView
+        android:id="@+id/fac_heir_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        ></ListView>
+
+</LinearLayout>

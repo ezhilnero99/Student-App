@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".prof">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Professor"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/dark_blue"
+        android:textAlignment="gravity"
+        android:gravity="center_vertical|center_horizontal"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="italic|bold"
+            android:textColor="@color/dark_blue"
+            android:textSize="15dp"
+            android:textAlignment="gravity"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="4.9"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text=" photo "
+            android:textAlignment="gravity"
+            android:textColor="@color/dark_blue"
+            android:textSize="15dp"
+            android:textStyle="italic|bold"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. C. Aravindan, B.E.(Hons), M.E., Ph.D."
+            android:textStyle="italic"
+            android:textColor="@color/dark_blue"
+            android:textSize="10dp"
+            android:textAlignment="gravity"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"/>
+
+
+        <ImageView
+            android:id="@+id/caravind_mail"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/cse_aravindan"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. R.S. Milton, B.E.(Hons), M.E., Ph.D."
+            android:textStyle="italic"
+            android:textColor="@color/dark_blue"
+            android:textSize="10dp"
+            android:textAlignment="gravity"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"/>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/milton"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/milton_mail"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. D. Venkatavara Prasad, M.E., Ph.D."
+            android:textStyle="italic"
+            android:textColor="@color/dark_blue"
+            android:textSize="10dp"
+            android:textAlignment="gravity"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"/>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/prasad"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/venkvara_mail"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. A. Chamundeswari, B.E., M.E.(S.E.), Ph.D."
+            android:textStyle="italic"
+            android:textColor="@color/dark_blue"
+            android:textSize="10dp"
+            android:textAlignment="gravity"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/chamu"
+            android:layout_weight="1.5"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/chamu_mail"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. T.T. Mirnalinee, M.E., Ph.D."
+            android:textStyle="italic"
+            android:textColor="@color/dark_blue"
+            android:textSize="10dp"
+            android:textAlignment="gravity"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1.5"/>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/ttmirnalinee"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/ttmir_mail"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* click on the image for mail id"
+        android:textStyle="italic"
+        android:textColor="@color/grey"
+        android:textSize="15dp"
+        android:textAlignment="gravity"
+        android:paddingLeft="10dp"
+    />
+
+
+
+</LinearLayout>
